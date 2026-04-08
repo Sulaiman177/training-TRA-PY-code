@@ -1,0 +1,7 @@
+THREAT REPORT - Generated: 2026-04-08 11:43:42.042726
+==================================================
+Suspicious IPs (3+ log appearances)
+
+IP: 10.1.1.2 | Occurrences: 3
+IP: 203.55.1.10 | Occurrences: 5
+IP: 198.18.0.5 | Occurrences: 5

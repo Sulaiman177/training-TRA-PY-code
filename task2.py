@@ -5,7 +5,7 @@ import ipaddress
 # Ask user for input
 ip_input = input("Enter IP address (example: 192.168.1.10): ")
 CIDR=input("Enter CIDR prefix (e.g., 24): ")
-try:
+""" try:
     # Create a network object
     network = ipaddress.ip_network(ip_input, strict=False)
 
@@ -31,4 +31,4 @@ try:
     print("Usable Hosts:", usable_hosts)
 
 except:
-    print("Invalid input! Please try again.")
+    print("Invalid input! Please try again.") """

@@ -1,0 +1,202 @@
+[
+    {
+        "timestamp": "2025-03-10 07:00:01",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.2",
+        "source_port": 50000,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 80,
+        "packet_size": 60
+    },
+    {
+        "timestamp": "2025-03-10 07:00:15",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.55.1.10",
+        "source_port": 6000,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 22,
+        "packet_size": 40
+    },
+    {
+        "timestamp": "2025-03-10 07:00:45",
+        "action": "ACCEPT",
+        "protocol": "UDP",
+        "source_ip": "10.1.1.3",
+        "source_port": 5300,
+        "destination_ip": "8.8.8.8",
+        "destination_port": 53,
+        "packet_size": 70
+    },
+    {
+        "timestamp": "2025-03-10 07:01:10",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.55.1.10",
+        "source_port": 6001,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 443,
+        "packet_size": 42
+    },
+    {
+        "timestamp": "2025-03-10 07:01:30",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.2",
+        "source_port": 50010,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 443,
+        "packet_size": 65
+    },
+    {
+        "timestamp": "2025-03-10 07:02:00",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "198.18.0.5",
+        "source_port": 9000,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 3306,
+        "packet_size": 45
+    },
+    {
+        "timestamp": "2025-03-10 07:02:20",
+        "action": "ACCEPT",
+        "protocol": "ICMP",
+        "source_ip": "10.1.1.4",
+        "source_port": 0,
+        "destination_ip": "1.1.1.1",
+        "destination_port": 0,
+        "packet_size": 100
+    },
+    {
+        "timestamp": "2025-03-10 07:02:45",
+        "action": "DROP",
+        "protocol": "UDP",
+        "source_ip": "198.18.0.5",
+        "source_port": 9001,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 53,
+        "packet_size": 30
+    },
+    {
+        "timestamp": "2025-03-10 07:04:00",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.5",
+        "source_port": 5500,
+        "destination_ip": "172.16.0.2",
+        "destination_port": 8080,
+        "packet_size": 75
+    },
+    {
+        "timestamp": "2025-03-10 07:04:25",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.55.1.10",
+        "source_port": 6003,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 22,
+        "packet_size": 40
+    },
+    {
+        "timestamp": "2025-03-10 07:04:50",
+        "action": "ACCEPT",
+        "protocol": "UDP",
+        "source_ip": "10.1.1.6",
+        "source_port": 6000,
+        "destination_ip": "8.8.4.4",
+        "destination_port": 53,
+        "packet_size": 68
+    },
+    {
+        "timestamp": "2025-03-10 07:05:10",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "198.18.0.5",
+        "source_port": 9002,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 443,
+        "packet_size": 42
+    },
+    {
+        "timestamp": "2025-03-10 07:05:35",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.2",
+        "source_port": 50020,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 80,
+        "packet_size": 62
+    },
+    {
+        "timestamp": "2025-03-10 07:06:00",
+        "action": "DROP",
+        "protocol": "UDP",
+        "source_ip": "198.18.0.5",
+        "source_port": 9003,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 53,
+        "packet_size": 28
+    },
+    {
+        "timestamp": "2025-03-10 07:06:25",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.7",
+        "source_port": 7000,
+        "destination_ip": "192.168.0.20",
+        "destination_port": 21,
+        "packet_size": 55
+    },
+    {
+        "timestamp": "2025-03-10 07:06:50",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.55.1.10",
+        "source_port": 6004,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 25,
+        "packet_size": 40
+    },
+    {
+        "timestamp": "2025-03-10 07:07:15",
+        "action": "ACCEPT",
+        "protocol": "TCP",
+        "source_ip": "10.1.1.8",
+        "source_port": 8000,
+        "destination_ip": "192.168.0.30",
+        "destination_port": 110,
+        "packet_size": 58
+    },
+    {
+        "timestamp": "2025-03-10 07:07:40",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "203.55.1.10",
+        "source_port": 6005,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 443,
+        "packet_size": 42
+    },
+    {
+        "timestamp": "2025-03-10 07:08:05",
+        "action": "ACCEPT",
+        "protocol": "UDP",
+        "source_ip": "10.1.1.9",
+        "source_port": 9000,
+        "destination_ip": "8.8.8.8",
+        "destination_port": 53,
+        "packet_size": 65
+    },
+    {
+        "timestamp": "2025-03-10 07:08:30",
+        "action": "DROP",
+        "protocol": "TCP",
+        "source_ip": "198.18.0.5",
+        "source_port": 9004,
+        "destination_ip": "192.168.0.10",
+        "destination_port": 3306,
+        "packet_size": 45
+    }
+]

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nationality Prediction Results</title>
+</head>
+<body>
+    <h1>Results for {{ name }}</h1>
+    <ul>
+    {% for country in countries %}
+        <li>{{ country.name }}: {{ "%.2f"|format(country.probability * 100) }}%</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Try another name</a>
+</body>
+</html>
