@@ -24,22 +24,22 @@ def ssh_connect():
             timeout=10
         )
 
-        print(f"✅ Successfully connected to {hostname} using SSH key.")
+        print(f"Successfully connected to {hostname} using SSH key.")
 
         # Run a simple command
         stdin, stdout, stderr = client.exec_command("uname -a")
 
-        print("\n📤 Command Output:")
+        print("Command Output:")
         print(stdout.read().decode())
 
-        print("⚠️ Errors (if any):")
+        print("Errors (if any):")
         print(stderr.read().decode())
 
         # Close connection
         client.close()
 
     except Exception as e:
-        print(f"❌ Connection failed: {e}")
+        print(f"Connection failed: {e}")
 
 if __name__ == "__main__":
     ssh_connect()

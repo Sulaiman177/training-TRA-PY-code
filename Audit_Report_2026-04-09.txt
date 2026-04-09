@@ -1,0 +1,11 @@
+--- Network Device Audit Report ---
+
+Device: routerA
+- Telnet Status: Unable to retrieve config
+- HTTP Server Status: Unable to retrieve config
+- SNMP Status: Unable to retrieve config
+
+Device: routerB
+- Telnet Status: Unable to retrieve config
+- HTTP Server Status: Unable to retrieve config
+- SNMP Status: Unable to retrieve config
